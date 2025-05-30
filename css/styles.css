@@ -1,0 +1,145 @@
+@font-face {
+	font-family: Delfino;
+	src: url(../fonts/delfino.otf);
+}
+
+body {
+	font-family: Delfino;
+	font-size: 1.25em;
+	background-color: skyblue;
+	background-image: url(../images/);
+}
+
+#container {
+	margin:auto;
+	width: 70%;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: center;
+}
+
+header img {
+	margin-left: .5em;
+	display: inline-block;
+}
+
+nav {
+	width: auto;
+	padding: 1em;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	white-space: nowrap;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+h1 {
+	font-weight: normal;
+	margin-block-start: 0.1em;
+	margin-block-end: 0.4em;
+}
+
+p {
+	margin: 1em 0;
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	width: 60%;
+}
+
+footer {
+	font-size: .75em;
+	margin-top: 2em;
+	padding: 0.5em;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+.panel {
+	margin: 10px;
+	padding: 1em;
+	background-color: rgba(0.0, 0.0, 0.0, 0.5);
+	box-shadow: 0 0 10px 10px rgba(0.0, 0.0, 0.0, 0.5);
+	color: white;
+}
+
+.windowpanel {
+	border: 6px lightblue;
+	border-style: solid;
+	border-radius: 6px;
+	background: linear-gradient(#7d7dff, #393981);
+	color: white;
+}
+
+.button {
+	display: inline-block;
+	transform: skewX(-0.1rad);
+	background-color: white;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: .4em 2em;
+	text-align: center;
+	min-width: 120px;
+	border-radius: 12px 6px;
+	font-size: 1.1em;
+	box-shadow: 0 4px #d5d5d5;
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	color: white;
+	background-color: #99b9ff;
+	box-shadow: 0 4px #5b8fff;
+}
+
+.button:active {
+	transform: translateY(4px) skewX(-0.1rad);
+	box-shadow: none;
+}
+
+.navbutton {
+	background-color: deepskyblue;
+	box-shadow: 0 4px #00a6dd;
+	color: white;
+}
+
+.redbutton {
+	background-color: #ff4242;
+	box-shadow: 0 4px #d53737;
+	color: white;
+}
+
+.purplebutton {
+	background-color: #c65dff;
+	box-shadow: 0 4px #9c48c9;
+	color: white;
+}
+
+.floatleft {
+	float: left;
+}
