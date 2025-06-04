@@ -1,10 +1,10 @@
 @font-face {
-	font-family: Delfino;
-	src: url(../fonts/delfino.otf);
+	font-family: RussoOne;
+	src: url(../fonts/russo.ttf);
 }
 
 body {
-	font-family: Delfino;
+	font-family: RussoOne;
 	font-size: 1.25em;
 	background-image: url(../images/back.png);
 	background-position: right;
@@ -15,46 +15,41 @@ body {
 
 #container {
 	margin:auto;
-	width: 70%;
+	width: 75%;
+}
+
+#top {
+	display: flex;
+	justify-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
 }
 
 header {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: stretch;
-	align-items: center;
+
 }
 
 header img {
-	margin-left: .5em;
-	display: inline-block;
+
 }
 
 nav {
-	width: auto;
-	padding: 1em;
+
 }
 
 nav ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	flex-direction: row;
+	padding: 0 1em;
+    display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 nav li {
 	display: inline;
-	list-style-type: none;
-	margin-left: 1%;
-	margin-right: 1%;
-	padding-left: 0;
-	padding-right: 0;
-	white-space: nowrap;
-	border-radius: 0;
-	background-color: transparent;
+	padding: 0.2em;
 }
 
 h1 {
@@ -65,11 +60,6 @@ h1 {
 
 p {
 	margin: 1em 0;
-}
-
-iframe {
-	aspect-ratio: 16 / 9;
-	width: 60%;
 }
 
 footer {
@@ -85,28 +75,27 @@ footer ul {
 .panel {
 	margin: 10px;
 	padding: 1em;
-	background-color: rgba(0.0, 0.0, 0.0, 0.5);
-	box-shadow: 0 0 10px 10px rgba(0.0, 0.0, 0.0, 0.5);
+	border: 2px solid #d5d5d5;
+	border-radius: 1em;
+	background-color: #000000;
 	color: white;
 }
 
 .windowpanel {
-	border: 6px lightblue;
-	border-style: solid;
+	border: 6px solid #d5d5d5;
 	border-radius: 6px;
-	background: linear-gradient(#7d7dff, #393981);
+	background-color: rgba(0.0, 0.0, 0.0, .5);
 	color: white;
 }
 
 .button {
 	display: inline-block;
-	transform: skewX(-0.1rad);
 	background-color: white;
 	margin-top: 4px;
 	margin-bottom: 4px;
 	padding: .4em 2em;
 	text-align: center;
-	min-width: 120px;
+	min-width: 128px;
 	border-radius: 12px 6px;
 	font-size: 1.1em;
 	box-shadow: 0 4px #d5d5d5;
@@ -116,24 +105,24 @@ footer ul {
 
 .button:hover {
 	color: white;
-	background-color: #99b9ff;
-	box-shadow: 0 4px #5b8fff;
+	background-color: #748cc0;
+	box-shadow: 0 4px #4e628d;
 }
 
 .button:active {
-	transform: translateY(4px) skewX(-0.1rad);
+	transform: translateY(4px);
 	box-shadow: none;
 }
 
 .navbutton {
-	background-color: deepskyblue;
-	box-shadow: 0 4px #00a6dd;
+	background-color: #a4bcc4;
+	box-shadow: 0 4px #67777c;
 	color: white;
 }
 
-.redbutton {
-	background-color: #ff4242;
-	box-shadow: 0 4px #d53737;
+.homebutton {
+	background-color: #72b2c7;
+	box-shadow: 0 4px #456772;
 	color: white;
 }
 
