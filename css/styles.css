@@ -19,31 +19,37 @@ body {
 }
 
 #top {
+	margin: auto;
+	width: 75%;
 	display: flex;
 	justify-items: center;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 header {
-
+	display: flex;
+	justify-content: center;
 }
 
 header img {
-
+	display: block;
+	max-width: 50%;
 }
 
 nav {
-
+	
 }
 
 nav ul {
 	padding: 0 1em;
+	margin-top: 0;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
 }
 
