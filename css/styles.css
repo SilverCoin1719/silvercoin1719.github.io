@@ -69,6 +69,14 @@ p {
 	margin: 1em 0;
 }
 
+dt {
+	margin-top: 2em;
+}
+
+dd {
+	margin: 0.5em auto;
+}
+
 footer {
 	font-size: .75em;
 	margin-top: 2em;
